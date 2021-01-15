@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "BOJ"
   "BOJ.pdb"
-  "CMakeFiles/BOJ.dir/main.cpp.o"
+  "CMakeFiles/BOJ.dir/1107.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

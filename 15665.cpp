@@ -4,17 +4,22 @@ using namespace std;
 typedef long long ll;
 
 int n, m;
-int arr[7];
+bool vst[10001] = {false,};
+int arr[8];
+int arr2[8];
 
 void dfs(int idx) {
     if (idx == m) {
         for (int i = 0; i < m; i++) {
-            cout << arr[i] << " \n" [i == m - 1];
+            cout << arr2[i] << " \n" [i == m - 1];
         }
         return;
     }
-    for (int i = 1; i <= n; i++) {
-        arr[idx] = i;
+    int prev = -1;
+    for (int i = 0; i < n; i++) {
+        if (prev == arr[i]) continue;
+        arr2[idx] = arr[i];
+        prev = arr[i];
         dfs(idx + 1);
     }
 }
@@ -23,6 +28,10 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> n >> m;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    sort(arr, arr + n);
     dfs(0);
     return 0;
 }
