@@ -14,7 +14,6 @@ void dfs(const string& s) {
         string tmp = s + to_string(i);
         min_cnt = min(min_cnt, abs(n - stoi(tmp)) + (int) tmp.length());
         dfs(tmp);
-
     }
 }
 
