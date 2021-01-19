@@ -1,11 +1,16 @@
 # Snippets
+### gcd, lcm
 ```c++
 ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; } // 최대공약수
 ll lcm(ll a, ll b) { return a * b / gcd(a, b); } // 최소공배수
+```
+### 정
+```c++
 sort(a.begin(), a.end(), greater<>()); // 내림차순 정렬
+sort(v.begin(), v.end(), compare); // 사용자 정의 정렬
 ```
 
-###순열
+### 순열
 ```c++
 int main() {
     int n; cin >> n;
@@ -21,7 +26,7 @@ int main() {
     return 0;
 }
 ```
-###조합
+### 조합
 ```c++
 int main() {
     int n, k; cin >> n >> k;
@@ -40,4 +45,9 @@ int main() {
     } while (next_permutation(chk.begin(), chk.end()));
     return 0;
 }
+```
+### 벡터의 최대, 최소값
+```c++
+int min = *min_element(vec.begin(), vec.end());
+int max = *max_element(vec.begin(), vec.end());
 ```

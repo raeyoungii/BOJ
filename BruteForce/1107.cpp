@@ -22,11 +22,11 @@ int main() {
     cin.tie(nullptr);
     cin >> n;
     int m; cin >> m;
-    min_cnt = abs(n - 100);
     for (int i = 0; i < m; i++) {
         int k; cin >> k;
         btn[k] = true;
     }
+    min_cnt = abs(n - 100);
     if (m < 10) dfs("");
     cout << min_cnt << "\n";
     return 0;
