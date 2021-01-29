@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-2138.o: 2138.cpp.o
+1202.o: 1202.cpp.o
 
-.PHONY : 2138.o
+.PHONY : 1202.o
 
 # target to build an object file
-2138.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/2138.cpp.o
-.PHONY : 2138.cpp.o
+1202.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.o
+.PHONY : 1202.cpp.o
 
-2138.i: 2138.cpp.i
+1202.i: 1202.cpp.i
 
-.PHONY : 2138.i
+.PHONY : 1202.i
 
 # target to preprocess a source file
-2138.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/2138.cpp.i
-.PHONY : 2138.cpp.i
+1202.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.i
+.PHONY : 1202.cpp.i
 
-2138.s: 2138.cpp.s
+1202.s: 1202.cpp.s
 
-.PHONY : 2138.s
+.PHONY : 1202.s
 
 # target to generate assembly for a file
-2138.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/2138.cpp.s
-.PHONY : 2138.cpp.s
+1202.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.s
+.PHONY : 1202.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... 2138.o"
-	@echo "... 2138.i"
-	@echo "... 2138.s"
+	@echo "... 1202.o"
+	@echo "... 1202.i"
+	@echo "... 1202.s"
 .PHONY : help
 
 
