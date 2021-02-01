@@ -51,7 +51,7 @@ int main() {
 int min = *min_element(vec.begin(), vec.end());
 int max = *max_element(vec.begin(), vec.end());
 ```
-### 경계값
+### 나눗셈 올림 (ceil)
 ```c++
 int s;
 if (n % k == 0) s = n / k;
@@ -59,4 +59,18 @@ else s = n / k + 1;
 ```
 ```c++
 int s = (n + k - 1) / k;
+```
+### 에라토스테네스의 체
+```c++
+void eratos(int n) {
+    if (n <= 1) return;
+    bool p_arr[MAX + 1];
+    for (int i = 2; i <= n; i++) p_arr = true;
+    for (int i = 2; i * i <= n; i++) {
+        if (p_arr[i])
+            for (int j = i * i; j <= n; j += i)
+                p_arr[j] = false;
+    }
+    // 이후의 작업...
+}
 ```

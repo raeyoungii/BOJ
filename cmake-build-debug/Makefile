@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-1202.o: 1202.cpp.o
+Two_Pointers/15565.o: Two_Pointers/15565.cpp.o
 
-.PHONY : 1202.o
+.PHONY : Two_Pointers/15565.o
 
 # target to build an object file
-1202.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.o
-.PHONY : 1202.cpp.o
+Two_Pointers/15565.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.o
+.PHONY : Two_Pointers/15565.cpp.o
 
-1202.i: 1202.cpp.i
+Two_Pointers/15565.i: Two_Pointers/15565.cpp.i
 
-.PHONY : 1202.i
+.PHONY : Two_Pointers/15565.i
 
 # target to preprocess a source file
-1202.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.i
-.PHONY : 1202.cpp.i
+Two_Pointers/15565.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.i
+.PHONY : Two_Pointers/15565.cpp.i
 
-1202.s: 1202.cpp.s
+Two_Pointers/15565.s: Two_Pointers/15565.cpp.s
 
-.PHONY : 1202.s
+.PHONY : Two_Pointers/15565.s
 
 # target to generate assembly for a file
-1202.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/1202.cpp.s
-.PHONY : 1202.cpp.s
+Two_Pointers/15565.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.s
+.PHONY : Two_Pointers/15565.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... 1202.o"
-	@echo "... 1202.i"
-	@echo "... 1202.s"
+	@echo "... Two_Pointers/15565.o"
+	@echo "... Two_Pointers/15565.i"
+	@echo "... Two_Pointers/15565.s"
 .PHONY : help
 
 
