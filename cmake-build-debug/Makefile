@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Two_Pointers/15565.o: Two_Pointers/15565.cpp.o
+Simulation/16234.o: Simulation/16234.cpp.o
 
-.PHONY : Two_Pointers/15565.o
+.PHONY : Simulation/16234.o
 
 # target to build an object file
-Two_Pointers/15565.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.o
-.PHONY : Two_Pointers/15565.cpp.o
+Simulation/16234.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.o
+.PHONY : Simulation/16234.cpp.o
 
-Two_Pointers/15565.i: Two_Pointers/15565.cpp.i
+Simulation/16234.i: Simulation/16234.cpp.i
 
-.PHONY : Two_Pointers/15565.i
+.PHONY : Simulation/16234.i
 
 # target to preprocess a source file
-Two_Pointers/15565.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.i
-.PHONY : Two_Pointers/15565.cpp.i
+Simulation/16234.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.i
+.PHONY : Simulation/16234.cpp.i
 
-Two_Pointers/15565.s: Two_Pointers/15565.cpp.s
+Simulation/16234.s: Simulation/16234.cpp.s
 
-.PHONY : Two_Pointers/15565.s
+.PHONY : Simulation/16234.s
 
 # target to generate assembly for a file
-Two_Pointers/15565.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.s
-.PHONY : Two_Pointers/15565.cpp.s
+Simulation/16234.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.s
+.PHONY : Simulation/16234.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Two_Pointers/15565.o"
-	@echo "... Two_Pointers/15565.i"
-	@echo "... Two_Pointers/15565.s"
+	@echo "... Simulation/16234.o"
+	@echo "... Simulation/16234.i"
+	@echo "... Simulation/16234.s"
 .PHONY : help
 
 

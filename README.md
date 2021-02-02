@@ -62,15 +62,21 @@ int s = (n + k - 1) / k;
 ```
 ### 에라토스테네스의 체
 ```c++
+vector<int> v;
 void eratos(int n) {
     if (n <= 1) return;
-    bool p_arr[MAX + 1];
-    for (int i = 2; i <= n; i++) p_arr = true;
+    bool sieve[n + 1];
+    for (int i = 2; i <= n; i++) sieve[i] = true;
     for (int i = 2; i * i <= n; i++) {
-        if (p_arr[i])
-            for (int j = i * i; j <= n; j += i)
-                p_arr[j] = false;
+        if (sieve[i]) {
+            for (int j = i * i; j <= n; j += i) {
+                sieve[j] = false;
+            }
+        }
     }
     // 이후의 작업...
+    for (int i = 2; i <= n; i++) {
+        if (sieve[i]) v.push_back(i);
+    }
 }
 ```

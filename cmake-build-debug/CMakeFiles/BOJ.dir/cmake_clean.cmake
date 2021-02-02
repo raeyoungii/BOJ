@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "BOJ"
   "BOJ.pdb"
-  "CMakeFiles/BOJ.dir/Two_Pointers/15565.cpp.o"
+  "CMakeFiles/BOJ.dir/Simulation/16234.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
