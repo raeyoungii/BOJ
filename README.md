@@ -7,6 +7,8 @@ ll lcm(ll a, ll b) { return a * b / gcd(a, b); } // 최소공배수
 ### 정렬
 ```c++
 sort(a.begin(), a.end(), greater<>()); // 내림차순 정렬
+
+bool compare(int a, int b) { return a > b; }
 sort(v.begin(), v.end(), compare); // 사용자 정의 정렬
 ```
 
