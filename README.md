@@ -48,8 +48,8 @@ int main() {
 ```
 ### 벡터의 최대, 최소값
 ```c++
-int min = *min_element(vec.begin(), vec.end());
-int max = *max_element(vec.begin(), vec.end());
+int min = *min_element(v.begin(), v.end());
+int max = *max_element(v.begin(), v.end());
 ```
 ### 나눗셈 올림 (ceil)
 ```c++
