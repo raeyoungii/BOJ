@@ -23,8 +23,7 @@ int main() {
         for (int i = 0; i < n; i++) {
             cout << arr[i] << " \n" [i == n - 1];
         }
-    }
-    while (next_permutation(arr.begin(), arr.end()));
+    } while (next_permutation(arr.begin(), arr.end()));
     return 0;
 }
 ```

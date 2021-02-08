@@ -2,8 +2,8 @@
 
 using namespace std;
 typedef long long ll;
-int dx[4] = {1, 0, -1, 0};
-int dy[4] = {0, 1, 0, -1};
+const int dy[4] = {0, 1, 0, -1};
+const int dx[4] = {1, 0, -1, 0};
 int n, l, r;
 bool flag;
 int ans = 0;
@@ -56,11 +56,7 @@ int main() {
         }
     }
     while (true) {
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                vst[i][j] = false;
-            }
-        }
+        memset(vst, false, sizeof(vst));
         flag = false;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {

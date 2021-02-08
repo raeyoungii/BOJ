@@ -3,7 +3,7 @@
 using namespace std;
 typedef long long ll;
 
-bool compare(pair<int, int>a, pair<int, int> b) { return a.second > b.second; }
+bool compare(pair<int, int> a, pair<int, int> b) { return a.second > b.second; }
 
 int main() {
     ios::sync_with_stdio(false);

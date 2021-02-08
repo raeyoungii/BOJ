@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Simulation/16234.o: Simulation/16234.cpp.o
+Simulation/14891.o: Simulation/14891.cpp.o
 
-.PHONY : Simulation/16234.o
+.PHONY : Simulation/14891.o
 
 # target to build an object file
-Simulation/16234.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.o
-.PHONY : Simulation/16234.cpp.o
+Simulation/14891.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/14891.cpp.o
+.PHONY : Simulation/14891.cpp.o
 
-Simulation/16234.i: Simulation/16234.cpp.i
+Simulation/14891.i: Simulation/14891.cpp.i
 
-.PHONY : Simulation/16234.i
+.PHONY : Simulation/14891.i
 
 # target to preprocess a source file
-Simulation/16234.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.i
-.PHONY : Simulation/16234.cpp.i
+Simulation/14891.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/14891.cpp.i
+.PHONY : Simulation/14891.cpp.i
 
-Simulation/16234.s: Simulation/16234.cpp.s
+Simulation/14891.s: Simulation/14891.cpp.s
 
-.PHONY : Simulation/16234.s
+.PHONY : Simulation/14891.s
 
 # target to generate assembly for a file
-Simulation/16234.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/16234.cpp.s
-.PHONY : Simulation/16234.cpp.s
+Simulation/14891.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/14891.cpp.s
+.PHONY : Simulation/14891.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Simulation/16234.o"
-	@echo "... Simulation/16234.i"
-	@echo "... Simulation/16234.s"
+	@echo "... Simulation/14891.o"
+	@echo "... Simulation/14891.i"
+	@echo "... Simulation/14891.s"
 .PHONY : help
 
 
