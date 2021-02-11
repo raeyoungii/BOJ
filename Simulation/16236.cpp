@@ -58,8 +58,7 @@ void bfs() {
             t = cur.dist;
             q.emplace(cur.y, cur.x, cur.dist);
             vst[cur.y][cur.x] = true;
-        }
-        else {
+        } else {
             cout << t << "\n";
             break;
         }
