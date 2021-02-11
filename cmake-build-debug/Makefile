@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Simulation/20005.o: Simulation/20005.cpp.o
+Simulation/1713.o: Simulation/1713.cpp.o
 
-.PHONY : Simulation/20005.o
+.PHONY : Simulation/1713.o
 
 # target to build an object file
-Simulation/20005.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/20005.cpp.o
-.PHONY : Simulation/20005.cpp.o
+Simulation/1713.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.o
+.PHONY : Simulation/1713.cpp.o
 
-Simulation/20005.i: Simulation/20005.cpp.i
+Simulation/1713.i: Simulation/1713.cpp.i
 
-.PHONY : Simulation/20005.i
+.PHONY : Simulation/1713.i
 
 # target to preprocess a source file
-Simulation/20005.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/20005.cpp.i
-.PHONY : Simulation/20005.cpp.i
+Simulation/1713.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.i
+.PHONY : Simulation/1713.cpp.i
 
-Simulation/20005.s: Simulation/20005.cpp.s
+Simulation/1713.s: Simulation/1713.cpp.s
 
-.PHONY : Simulation/20005.s
+.PHONY : Simulation/1713.s
 
 # target to generate assembly for a file
-Simulation/20005.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/20005.cpp.s
-.PHONY : Simulation/20005.cpp.s
+Simulation/1713.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.s
+.PHONY : Simulation/1713.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Simulation/20005.o"
-	@echo "... Simulation/20005.i"
-	@echo "... Simulation/20005.s"
+	@echo "... Simulation/1713.o"
+	@echo "... Simulation/1713.i"
+	@echo "... Simulation/1713.s"
 .PHONY : help
 
 

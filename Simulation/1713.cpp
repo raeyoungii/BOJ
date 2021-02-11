@@ -14,18 +14,18 @@ int main() {
         int k; cin >> k;
         if (frame[k].first == 0) {
             if (size == n) {
-                int num = 0, cnt = INT_MAX, time = INT_MAX;
+                int num = 0, cnt = INT_MAX, t = INT_MAX;
                 for (int j = 1; j <= 100; j++) {
                     if (frame[j].first == 0) continue;
                     if (frame[j].first < cnt) {
                         num = j;
                         cnt = frame[j].first;
-                        time = frame[j].second;
+                        t = frame[j].second;
                     } else if (cnt == frame[j].first) {
-                        if (frame[j].second < time) {
+                        if (frame[j].second < t) {
                             num = j;
                             cnt = frame[j].first;
-                            time = frame[j].second;
+                            t = frame[j].second;
                         }
                     }
                 }
