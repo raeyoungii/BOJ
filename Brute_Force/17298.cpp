@@ -28,4 +28,4 @@ int main() {
     return 0;
 }
 
-// TODO: 제대로 이해할것
+// TODO
