@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Simulation/1713.o: Simulation/1713.cpp.o
+Data_Structure/2812.o: Data_Structure/2812.cpp.o
 
-.PHONY : Simulation/1713.o
+.PHONY : Data_Structure/2812.o
 
 # target to build an object file
-Simulation/1713.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.o
-.PHONY : Simulation/1713.cpp.o
+Data_Structure/2812.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.o
+.PHONY : Data_Structure/2812.cpp.o
 
-Simulation/1713.i: Simulation/1713.cpp.i
+Data_Structure/2812.i: Data_Structure/2812.cpp.i
 
-.PHONY : Simulation/1713.i
+.PHONY : Data_Structure/2812.i
 
 # target to preprocess a source file
-Simulation/1713.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.i
-.PHONY : Simulation/1713.cpp.i
+Data_Structure/2812.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.i
+.PHONY : Data_Structure/2812.cpp.i
 
-Simulation/1713.s: Simulation/1713.cpp.s
+Data_Structure/2812.s: Data_Structure/2812.cpp.s
 
-.PHONY : Simulation/1713.s
+.PHONY : Data_Structure/2812.s
 
 # target to generate assembly for a file
-Simulation/1713.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Simulation/1713.cpp.s
-.PHONY : Simulation/1713.cpp.s
+Data_Structure/2812.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.s
+.PHONY : Data_Structure/2812.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Simulation/1713.o"
-	@echo "... Simulation/1713.i"
-	@echo "... Simulation/1713.s"
+	@echo "... Data_Structure/2812.o"
+	@echo "... Data_Structure/2812.i"
+	@echo "... Data_Structure/2812.s"
 .PHONY : help
 
 
