@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Data_Structure/2812.o: Data_Structure/2812.cpp.o
+Dynamic_Programming/9084_2.o: Dynamic_Programming/9084_2.cpp.o
 
-.PHONY : Data_Structure/2812.o
+.PHONY : Dynamic_Programming/9084_2.o
 
 # target to build an object file
-Data_Structure/2812.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.o
-.PHONY : Data_Structure/2812.cpp.o
+Dynamic_Programming/9084_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.o
+.PHONY : Dynamic_Programming/9084_2.cpp.o
 
-Data_Structure/2812.i: Data_Structure/2812.cpp.i
+Dynamic_Programming/9084_2.i: Dynamic_Programming/9084_2.cpp.i
 
-.PHONY : Data_Structure/2812.i
+.PHONY : Dynamic_Programming/9084_2.i
 
 # target to preprocess a source file
-Data_Structure/2812.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.i
-.PHONY : Data_Structure/2812.cpp.i
+Dynamic_Programming/9084_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.i
+.PHONY : Dynamic_Programming/9084_2.cpp.i
 
-Data_Structure/2812.s: Data_Structure/2812.cpp.s
+Dynamic_Programming/9084_2.s: Dynamic_Programming/9084_2.cpp.s
 
-.PHONY : Data_Structure/2812.s
+.PHONY : Dynamic_Programming/9084_2.s
 
 # target to generate assembly for a file
-Data_Structure/2812.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Data_Structure/2812.cpp.s
-.PHONY : Data_Structure/2812.cpp.s
+Dynamic_Programming/9084_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.s
+.PHONY : Dynamic_Programming/9084_2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Data_Structure/2812.o"
-	@echo "... Data_Structure/2812.i"
-	@echo "... Data_Structure/2812.s"
+	@echo "... Dynamic_Programming/9084_2.o"
+	@echo "... Dynamic_Programming/9084_2.i"
+	@echo "... Dynamic_Programming/9084_2.s"
 .PHONY : help
 
 

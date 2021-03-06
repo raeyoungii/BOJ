@@ -80,6 +80,14 @@ else s = n / k + 1;
 int s = (n + k - 1) / k;
 ```
 
+### 나머지 올림
+```c++
+if (n % k == 0) s = k;
+else s = n % k;
+```
+```c++
+s = (n - 1) % k + 1; 
+```
 ### 에라토스테네스의 체
 ```c++
 vector<int> v;
@@ -98,5 +106,13 @@ void eratos(int n) {
     for (int i = 2; i <= n; i++) {
         if (sieve[i]) v.push_back(i);
     }
+}
+```
+
+### goto
+```c++
+while() {
+    if() goto out;
+    out:;
 }
 ```
