@@ -143,32 +143,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-Dynamic_Programming/9084_2.o: Dynamic_Programming/9084_2.cpp.o
+Dynamic_Programming/2098.o: Dynamic_Programming/2098.cpp.o
 
-.PHONY : Dynamic_Programming/9084_2.o
+.PHONY : Dynamic_Programming/2098.o
 
 # target to build an object file
-Dynamic_Programming/9084_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.o
-.PHONY : Dynamic_Programming/9084_2.cpp.o
+Dynamic_Programming/2098.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o
+.PHONY : Dynamic_Programming/2098.cpp.o
 
-Dynamic_Programming/9084_2.i: Dynamic_Programming/9084_2.cpp.i
+Dynamic_Programming/2098.i: Dynamic_Programming/2098.cpp.i
 
-.PHONY : Dynamic_Programming/9084_2.i
+.PHONY : Dynamic_Programming/2098.i
 
 # target to preprocess a source file
-Dynamic_Programming/9084_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.i
-.PHONY : Dynamic_Programming/9084_2.cpp.i
+Dynamic_Programming/2098.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.i
+.PHONY : Dynamic_Programming/2098.cpp.i
 
-Dynamic_Programming/9084_2.s: Dynamic_Programming/9084_2.cpp.s
+Dynamic_Programming/2098.s: Dynamic_Programming/2098.cpp.s
 
-.PHONY : Dynamic_Programming/9084_2.s
+.PHONY : Dynamic_Programming/2098.s
 
 # target to generate assembly for a file
-Dynamic_Programming/9084_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/9084_2.cpp.s
-.PHONY : Dynamic_Programming/9084_2.cpp.s
+Dynamic_Programming/2098.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.s
+.PHONY : Dynamic_Programming/2098.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... Dynamic_Programming/9084_2.o"
-	@echo "... Dynamic_Programming/9084_2.i"
-	@echo "... Dynamic_Programming/9084_2.s"
+	@echo "... Dynamic_Programming/2098.o"
+	@echo "... Dynamic_Programming/2098.i"
+	@echo "... Dynamic_Programming/2098.s"
 .PHONY : help
 
 
