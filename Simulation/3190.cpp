@@ -2,6 +2,7 @@
 
 using namespace std;
 typedef long long ll;
+
 const int dy[4] = {0, 1, 0, -1};
 const int dx[4] = {1, 0, -1, 0};
 int matrix[100][100];

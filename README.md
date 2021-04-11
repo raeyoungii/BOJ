@@ -116,3 +116,21 @@ while() {
     out:;
 }
 ```
+
+### 스트링 공백 자르기
+```c++
+istringstream ss(str);
+string stringBuffer;
+while (getline(ss, stringBuffer, ' ')) {
+    v.push_back(stringBuffer);
+}
+```
+
+### all_of()
+```c++
+int A[21];
+bool chkEmpty() {
+if (all_of(A, A + 21, [](int i){ return i == 0; })) return true;
+return false;
+}
+```

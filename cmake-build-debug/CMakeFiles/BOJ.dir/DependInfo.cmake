@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2098.cpp" "/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o"
+  "/Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2629.cpp" "/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

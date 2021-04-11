@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,27 +77,27 @@ include CMakeFiles/BOJ.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ.dir/flags.make
 
-CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o: CMakeFiles/BOJ.dir/flags.make
-CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o: ../Dynamic_Programming/2098.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o -c /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2098.cpp
+CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o: CMakeFiles/BOJ.dir/flags.make
+CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o: ../Dynamic_Programming/2629.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o -c /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2629.cpp
 
-CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2098.cpp > CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.i
+CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2629.cpp > CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.i
 
-CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2098.cpp -o CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.s
+CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raeyoungkim/CLionProjects/BOJ/Dynamic_Programming/2629.cpp -o CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.s
 
 # Object files for target BOJ
 BOJ_OBJECTS = \
-"CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o"
+"CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o"
 
 # External object files for target BOJ
 BOJ_EXTERNAL_OBJECTS =
 
-BOJ: CMakeFiles/BOJ.dir/Dynamic_Programming/2098.cpp.o
+BOJ: CMakeFiles/BOJ.dir/Dynamic_Programming/2629.cpp.o
 BOJ: CMakeFiles/BOJ.dir/build.make
 BOJ: CMakeFiles/BOJ.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ"
