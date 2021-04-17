@@ -3,4 +3,4 @@ project(BOJ)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BOJ "삼성 SW 역량 테스트/16235.cpp")
+add_executable(BOJ main.cpp)

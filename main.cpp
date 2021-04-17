@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 typedef long long ll;
@@ -11,12 +13,10 @@ int main() {
         istringstream ss(c);
         string stringBuffer;
         vector<string> v;
-        while (getline(ss, stringBuffer, ' ')) {
+        while (getline(ss, stringBuffer, ' '))
             v.push_back(stringBuffer);
-        }
-        for (auto& s : v) {
+        for (auto& s : v)
             cout << s << "\n";
-        }
     }
     return 0;
 }

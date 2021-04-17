@@ -23,7 +23,7 @@ void addTree(int r, int c) {
     for (int d = 0; d < 8; d++) {
         int ny = r + dy[d];
         int nx = c + dx[d];
-        if (1 <= ny && ny <= n && 1 <= nx && nx <= n){
+        if (1 <= ny && ny <= n && 1 <= nx && nx <= n) {
             matrix[ny][nx].push_back(1);
             ans++;
         }
