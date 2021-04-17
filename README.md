@@ -130,7 +130,20 @@ while (getline(ss, stringBuffer, ' ')) {
 ```c++
 int A[21];
 bool chkEmpty() {
-if (all_of(A, A + 21, [](int i){ return i == 0; })) return true;
-return false;
+    if (all_of(A, A + 21, [](int i){ return i == 0; })) return true;
+    return false;
 }
+```
+
+### 2차원 벡터 선언
+```c++
+vector<vector<int> > vv(n,vector<int>(n, 0));
+```
+
+### cin >> vector<int> A(n);
+```c++
+for (int i = 0; i < n; i++) cin >> A[i];
+```
+```c++
+for (int& x : A) cin >> x;
 ```
