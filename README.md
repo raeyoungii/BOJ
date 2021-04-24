@@ -119,6 +119,8 @@ while() {
 
 ### 스트링 공백 자르기
 ```c++
+string str = "line -n 100 -s hi -e";
+vector<string> v;
 istringstream ss(str);
 string stringBuffer;
 while (getline(ss, stringBuffer, ' ')) {

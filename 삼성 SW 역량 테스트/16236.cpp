@@ -11,7 +11,7 @@ struct Fish {
 };
 
 struct compare {
-    bool operator()(Fish a, Fish b) {
+    bool operator() (const Fish& a, const Fish& b) {
         if (a.dist == b.dist) {
             if (a.y == b.y) return a.x > b.x;
             return a.y > b.y;

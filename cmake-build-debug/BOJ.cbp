@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/raeyoungkim/CLionProjects/BOJ/main.cpp">
+		<Unit filename="/Users/raeyoungkim/CLionProjects/BOJ/삼성 SW 역량 테스트/16236.cpp">
 			<Option target="BOJ"/>
 		</Unit>
 		<Unit filename="/Users/raeyoungkim/CLionProjects/BOJ/CMakeLists.txt">
