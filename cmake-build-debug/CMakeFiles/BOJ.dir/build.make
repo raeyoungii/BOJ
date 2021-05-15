@@ -76,27 +76,27 @@ include CMakeFiles/BOJ.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ.dir/flags.make
 
-CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o: CMakeFiles/BOJ.dir/flags.make
-CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o: ../삼성\ SW\ 역량\ 테스트/16236.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o -c "/Users/raeyoungkim/CLionProjects/BOJ/삼성 SW 역량 테스트/16236.cpp"
+CMakeFiles/BOJ.dir/etc/16496.cpp.o: CMakeFiles/BOJ.dir/flags.make
+CMakeFiles/BOJ.dir/etc/16496.cpp.o: ../etc/16496.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ.dir/etc/16496.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ.dir/etc/16496.cpp.o -c /Users/raeyoungkim/CLionProjects/BOJ/etc/16496.cpp
 
-CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/raeyoungkim/CLionProjects/BOJ/삼성 SW 역량 테스트/16236.cpp" > CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.i
+CMakeFiles/BOJ.dir/etc/16496.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ.dir/etc/16496.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raeyoungkim/CLionProjects/BOJ/etc/16496.cpp > CMakeFiles/BOJ.dir/etc/16496.cpp.i
 
-CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/raeyoungkim/CLionProjects/BOJ/삼성 SW 역량 테스트/16236.cpp" -o CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.s
+CMakeFiles/BOJ.dir/etc/16496.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ.dir/etc/16496.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raeyoungkim/CLionProjects/BOJ/etc/16496.cpp -o CMakeFiles/BOJ.dir/etc/16496.cpp.s
 
 # Object files for target BOJ
 BOJ_OBJECTS = \
-"CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o"
+"CMakeFiles/BOJ.dir/etc/16496.cpp.o"
 
 # External object files for target BOJ
 BOJ_EXTERNAL_OBJECTS =
 
-BOJ: CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o
+BOJ: CMakeFiles/BOJ.dir/etc/16496.cpp.o
 BOJ: CMakeFiles/BOJ.dir/build.make
 BOJ: CMakeFiles/BOJ.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raeyoungkim/CLionProjects/BOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ"

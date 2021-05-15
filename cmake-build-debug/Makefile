@@ -142,32 +142,32 @@ BOJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/build
 .PHONY : BOJ/fast
 
-삼성_SW_역량_테스트/16236.o: 삼성_SW_역량_테스트/16236.cpp.o
+etc/16496.o: etc/16496.cpp.o
 
-.PHONY : 삼성_SW_역량_테스트/16236.o
+.PHONY : etc/16496.o
 
 # target to build an object file
-삼성_SW_역량_테스트/16236.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.o
-.PHONY : 삼성_SW_역량_테스트/16236.cpp.o
+etc/16496.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/etc/16496.cpp.o
+.PHONY : etc/16496.cpp.o
 
-삼성_SW_역량_테스트/16236.i: 삼성_SW_역량_테스트/16236.cpp.i
+etc/16496.i: etc/16496.cpp.i
 
-.PHONY : 삼성_SW_역량_테스트/16236.i
+.PHONY : etc/16496.i
 
 # target to preprocess a source file
-삼성_SW_역량_테스트/16236.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.i
-.PHONY : 삼성_SW_역량_테스트/16236.cpp.i
+etc/16496.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/etc/16496.cpp.i
+.PHONY : etc/16496.cpp.i
 
-삼성_SW_역량_테스트/16236.s: 삼성_SW_역량_테스트/16236.cpp.s
+etc/16496.s: etc/16496.cpp.s
 
-.PHONY : 삼성_SW_역량_테스트/16236.s
+.PHONY : etc/16496.s
 
 # target to generate assembly for a file
-삼성_SW_역량_테스트/16236.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/삼성_SW_역량_테스트/16236.cpp.s
-.PHONY : 삼성_SW_역량_테스트/16236.cpp.s
+etc/16496.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ.dir/build.make CMakeFiles/BOJ.dir/etc/16496.cpp.s
+.PHONY : etc/16496.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ"
-	@echo "... 삼성_SW_역량_테스트/16236.o"
-	@echo "... 삼성_SW_역량_테스트/16236.i"
-	@echo "... 삼성_SW_역량_테스트/16236.s"
+	@echo "... etc/16496.o"
+	@echo "... etc/16496.i"
+	@echo "... etc/16496.s"
 .PHONY : help
 
 
