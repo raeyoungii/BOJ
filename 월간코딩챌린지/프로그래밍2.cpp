@@ -4,17 +4,16 @@ using namespace std;
 typedef long long ll;
 const char nl = '\n';
 
-bool getTrue(string s) {
-    deque<char> dq;
-    for (int i = 0; i < s.size(); i++) {
-        if (s[i] == '(' || s[i] == '{' || s[i] == '[') dq.push_back(s[i]);
-        else if (!dq.empty() && ((s[i] == ')' && dq.back() == '(') || (s[i] == '}' && dq.back() == '{') ||
-            (s[i] == ']' && dq.back() == '['))) dq.pop_back();
+bool getTrue(string& s) {
+    stack<char> stk;
+    for (char& ch : s) {
+        if (ch == '(' || ch == '{' || ch == '[') stk.push(ch);
+        else if (!stk.empty() && ((ch == ')' && stk.top() == '(') || (ch == '}' && stk.top() == '{') ||
+            (ch == ']' && stk.top() == '['))) stk.pop();
         else return false;
-
     }
-    if (dq.empty()) return true;
-    return false;
+    if (!stk.empty()) return false;
+    return true;
 }
 
 int solution(string s) {

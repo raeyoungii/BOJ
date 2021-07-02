@@ -3,4 +3,4 @@ project(BOJ)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BOJ etc/16496.cpp)
+add_executable(BOJ Greedy/11000.cpp)
